@@ -973,9 +973,9 @@ ol li {
 }
 
 .bi-chevron-left::before {
-    content: url("/img/Home_image/nivo-prev-nav@2x.png");
+    content: url("img/Home_image/nivo-prev-nav@2x.png");
 }
 
 .bi-chevron-right::before {
-    content: url("/img/Home_image/nivo-next-nav@2x.png");
+    content: url("img/Home_image/nivo-next-nav@2x.png");
 }
