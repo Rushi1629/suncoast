@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/Home_image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/Home_image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Roboto:wght@500;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="\css\all.min.css" rel="stylesheet">
+    <link href="\css\bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib\animate\animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img\Home_image\logo.png" alt="logo" width="135" height="75">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="products.html" class="dropdown-item">IMO Signs & Posters</a>
+                        <a href="automationandelectricalproduct.html" class="dropdown-item">Electrical And Automation
+                            Products</a>
+                        <a href="donaldsonfilters.html" class="dropdown-item">Donaldson Filters</a>
+                        <!-- <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item active">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a> -->
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+91 7892176236
+            </h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-contact py-5" style="margin-bottom: 6rem;">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+            <div class="breadcrumb-container">
+                <ul class="breadcrumb clearfix">
+                    <li>You are here:</li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul><!-- .breadcrumb end -->
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container contact-page py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+                    <h1 class="mb-4">Contact For Any Query</h1>
+                    <div class="bg-light p-4">
+                        <form id="contact-form">
+                            <div class="row g-3">
+
+                                <fieldset>
+                                    <label>
+                                        <span class="required">*</span> Your request:
+                                    </label>
+
+                                    <select class="wpcf7-form-control-wrap wpcf7-select" id="contact-inquiry"
+                                        required="required" name="Contact-Inquiry">
+                                        <option value="" selected>Please Select</option>
+                                        <option value="Pre-Purchase">Pre-Purchase</option>
+                                        <option value="Pre-vetting Preparations">Pre-vetting Preparations</option>
+                                        <option value="Class /Flag Transfer">Class /Flag Transfer</option>
+                                        <option value="Dry Dock Preparation and Supervision">Dry Dock Preparation and
+                                            Supervision</option>
+                                        <option value="Third Party survey and Audit of vessel for compliance ">Third
+                                            Party survey and Audit of vessel for compliance </option>
+                                        <option value="Spare parts">Spare parts </option>
+                                        <option value="Marine Services">Marine Services </option>
+                                        <option value="Other">Other </option>
+                                    </select>
+                                </fieldset>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Full Name"
+                                            name="Name">
+                                        <label for="name">Your Full Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                            name="Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Mobile No"
+                                            name="Mobile-No">
+                                        <label for="subject">Mobile No</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                            style="height: 100px" name="Message"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s">
+                    <div class="position-relative h-100">
+                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.250188929469!2d73.10354797206263!3d19.00869401472587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e83681e23083%3A0x369b911928188ce2!2s21%2C%20Sector%201%20Rd%2C%20Sector%20-%201%2C%20Khanda%20Colony%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra%20410206!5e0!3m2!1sen!2sin!4v1710672567520!5m2!1sen!2sin"
+                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>A-404, Plot-21 SEC-1, Karanjade, Panvel,
+                        Raigarh- 410206, Maharashtra</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7892176236</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8369440486</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@suncoastship.com </p>
+                    <!-- <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Marine Consultancy Services</a>
+                    <a class="btn btn-link" href="service.html">New and recondition Spare Parts supply</a>
+                    <a class="btn btn-link" href="service.html">Marine Services Provider</a>
+                    <a class="btn btn-link" href="service.html">Third Party survey and Audit of vessel</a>
+                    <a class="btn btn-link" href="service.html">Demo-vessel Class and flag changes</a>
+                    <a class="btn btn-link" href="service.html">Dry Dock Preparation and Supervision</a>
+                    <a class="btn btn-link" href="service.html">Class /Flag Transfer</a>
+                    <a class="btn btn-link" href="service.html">Pre-vetting Preparations</a>
+                    <a class="btn btn-link" href="service.html">Pre-Purchase Inspection</a>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <!-- <a class="btn btn-link" href="#">Terms & Condition</a>
+               <a class="btn btn-link" href="#">Support</a> -->
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Subscribe to newsletter and we will inform you about our newest Services.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Suncoast</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="">Team Goal Tech</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="js\jquery.min.js"></script>
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+
+<!--contact.html  Thu, 07 Mar 2024 04:20:08 GMT -->
+
+</html>
